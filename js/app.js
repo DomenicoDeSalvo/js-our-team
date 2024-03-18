@@ -18,8 +18,6 @@ teamMembersArray.push(scottEstrada);
 const barbaraRamos = generateProfile('Barbara Ramos', 'Graphic Designar', './img/barbara-ramos-graphic-designer.jpg');
 teamMembersArray.push(barbaraRamos);
 
-console.log(teamMembersArray)
-
 //Funzione con il compito di generare i profili.
 function generateProfile(memberName, memberRole, memberPic){
     const teamMember = {
@@ -56,6 +54,5 @@ for(let i = 0; i < teamMembersArray.length; i++){
 
 //Inclusione delle card nel HTML.
 membersCardsElement.innerHTML = card;
-console.log(card)
 
 
