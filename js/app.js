@@ -1,3 +1,5 @@
+//PARTE 1: GENERAZIONE PROFILI DEI MEMBRI DEL TEAM.
+
 //Array in cui saranno contenuti i profili dei membri del team.
 const teamMembersArray = []; //Array
 
@@ -27,3 +29,5 @@ function generateProfile(memberName, memberRole, memberPic){
     }
     return teamMember; //Object
 }
+
+//PARTE 2: GENERAZIONE DELLE CARD DA INSERIRE NELLA PAGINA
