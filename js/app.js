@@ -30,4 +30,30 @@ function generateProfile(memberName, memberRole, memberPic){
     return teamMember; //Object
 }
 
-//PARTE 2: GENERAZIONE DELLE CARD DA INSERIRE NELLA PAGINA
+//PARTE 2: GENERAZIONE DELLE CARD DA INSERIRE NELLA PAGINA.
+//Acquisire l'elemento del HTML in cui mettere le card.
+const membersCardsElement = document.querySelector('.members_cards'); //Element || Null
+//Creazione della variabile da inserire nel HTML.
+let card = ''; //String
+//Creazione del ciclo per acquisire i dati dall'array.
+for(let i = 0; i < teamMembersArray.length; i++){
+    //Creazione del codice della card.
+    const cardCode = `
+    <div class="colum mb-3">
+        <div class="card">
+            <img src="${teamMembersArray[i].memberPic}">
+            <div class="card-body">
+                <h5 class="card-title">${teamMembersArray[i].memberName}</h5>
+                <p class="card-text">${teamMembersArray[i].memberData}</p>
+            </div>
+            </div>
+    </div>
+    `;//String
+    //Assegnazione della stringa di cardCode a card.
+    card += cardCode; //String 
+}
+
+//Inclusione delle card nel HTML.
+membersCardsElement.innerHTML = card;
+
+
