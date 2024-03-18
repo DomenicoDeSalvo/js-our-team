@@ -37,14 +37,15 @@ const membersCardsElement = document.querySelector('.members_cards'); //Element 
 let card = ''; //String
 //Creazione del ciclo per acquisire i dati dall'array.
 for(let i = 0; i < teamMembersArray.length; i++){
+    const currentMember = teamMembersArray[i]; 
     //Creazione del codice della card.
     const cardCode = `
     <div class="colum mb-3">
         <div class="card">
-            <img src="${teamMembersArray[i].memberPic}">
+            <img src="${currentMember.pic}">
             <div class="card-body">
-                <h5 class="card-title">${teamMembersArray[i].memberName}</h5>
-                <p class="card-text">${teamMembersArray[i].memberData}</p>
+                <h5 class="card-title">${currentMember.name}</h5>
+                <p class="card-text">${currentMember.role}</p>
             </div>
             </div>
     </div>
@@ -55,5 +56,6 @@ for(let i = 0; i < teamMembersArray.length; i++){
 
 //Inclusione delle card nel HTML.
 membersCardsElement.innerHTML = card;
+console.log(card)
 
 
