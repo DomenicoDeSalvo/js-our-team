@@ -26,3 +26,13 @@ body{
 .subtitle{
     color: var(--subtitle);
 }
+
+/* MAIN */
+
+.name{
+    color: var(--names);
+}
+
+.role{
+    color: var(--roles);
+}

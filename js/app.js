@@ -44,8 +44,8 @@ for(let i = 0; i < teamMembersArray.length; i++){
         <div class="card">
             <img src="${currentMember.pic}">
             <div class="card-body">
-                <h5 class="card-title">${currentMember.name}</h5>
-                <p class="card-text">${currentMember.role}</p>
+                <h5 class="card-title name">${currentMember.name}</h5>
+                <p class="card-text role">${currentMember.role}</p>
             </div>
             </div>
     </div>
