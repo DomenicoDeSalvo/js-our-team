@@ -3,17 +3,17 @@ const teamMembersArray = []; //Array
 
 //Creazione tramite funzione dei profili dei membri del team.
 //I profili vengono poi inseriti nell'array.
-const wayneBarnett = generateProfile('Wayne Barnett', 'Founder & CEO', 'wayne-barnett-founder-ceo.jpg');
+const wayneBarnett = generateProfile('Wayne Barnett', 'Founder & CEO', './img/wayne-barnett-founder-ceo.jpg');
 teamMembersArray.push(wayneBarnett);
-const angelaCaroll = generateProfile('Angela Caroll', 'Chief Editor', 'angela-caroll-chief-editor.jpg');
+const angelaCaroll = generateProfile('Angela Caroll', 'Chief Editor', './img/angela-caroll-chief-editor.jpg');
 teamMembersArray.push(angelaCaroll);
-const walterGordon = generateProfile('Walter Gordon', 'Office Manager', 'walter-gordon-office-manager.jpg');
+const walterGordon = generateProfile('Walter Gordon', 'Office Manager', './img/walter-gordon-office-manager.jpg');
 teamMembersArray.push(walterGordon);
-const angelaLopez = generateProfile('Angela Lopez', 'Social Media Manager', 'angela-lopez-social-media-manager.jpg');
+const angelaLopez = generateProfile('Angela Lopez', 'Social Media Manager', './img/angela-lopez-social-media-manager.jpg');
 teamMembersArray.push(angelaLopez);
-const scottEstrada = generateProfile('Scott Estrada', 'Developer', 'scott-estrada-developer.jpg');
+const scottEstrada = generateProfile('Scott Estrada', 'Developer', './img/scott-estrada-developer.jpg');
 teamMembersArray.push(scottEstrada);
-const barbaraRamos = generateProfile('Barbara Ramos', 'Graphic Designar', 'barbara-ramos-graphic-designer.jpg');
+const barbaraRamos = generateProfile('Barbara Ramos', 'Graphic Designar', './img/barbara-ramos-graphic-designer.jpg');
 teamMembersArray.push(barbaraRamos);
 
 console.log(teamMembersArray)

@@ -1,0 +1,28 @@
+/* COLOURS */
+:root{
+    --background: #F5F5F1;
+    --title: #333333;
+    --subtitle: #726D65;
+    --names: #67615A;
+    --roles: #6B655E;
+
+
+}
+
+body{
+    background-color: var(--background);
+}
+
+/* HEADER */
+.ms_sm_container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title{
+    color: var(--title);
+}
+
+.subtitle{
+    color: var(--subtitle);
+}
